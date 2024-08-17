@@ -2,11 +2,11 @@ require("dotenv").config();
 var cors = require('cors')
 
 var express = require("express"),
-  mongoose = require("mongoose"),
-  autoIncrement = require("mongoose-auto-increment"),
-  Joi = require("joi"),
-  app = express();
-  app.use(cors())
+mongoose = require("mongoose"),
+autoIncrement = require("mongoose-auto-increment"),
+Joi = require("joi"),
+app = express();
+app.use(cors())
 jwt = require("jsonwebtoken");
 
 //connecting to mongodb
